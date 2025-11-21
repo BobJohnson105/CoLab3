@@ -2475,3 +2475,558 @@ Script Stack (0 frames) :
 [2025.11.21-11.45.45:702][916]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
 [2025.11.21-11.45.45:702][916]AssetCheck: /Game/KitchenLevel Validating asset
 [2025.11.21-11.45.45:758][916]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../CoLab3/CoLab3/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.21-11.46.53:285][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.11.21-11.46.54:966][516]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.21-11.46.54:975][516]LogContentBundle: [KitchenLevel(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.21-11.46.54:975][516]LogWorldPartition: Display: GenerateStreaming for 'KitchenLevel' started...
+[2025.11.21-11.46.54:977][516]LogWorldPartition: Display: GenerateStreaming for 'KitchenLevel' took 2.265 ms (total: 41.434 ms)
+[2025.11.21-11.46.54:999][516]LogFMOD: Display: Loaded bank lookup
+[2025.11.21-11.46.54:999][516]LogFMOD: Error: Failed to load asset lookup
+[2025.11.21-11.46.55:003][516]LogFMOD: Default sample rate = 48000
+[2025.11.21-11.46.55:003][516]LogFMOD: System sample rate = 48000
+[2025.11.21-11.46.55:003][516]LogFMOD: Matching system sample rate 48000
+[2025.11.21-11.46.55:003][516]LogFMOD: CallbackHandler not set.
+[2025.11.21-11.46.55:023][516]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.21-11.46.55:038][516]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.46.55:057][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.21-11.46.55:057][516]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KitchenLevel
+[2025.11.21-11.46.55:089][516]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.21-11.46.55:097][516]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 7.733 ms (total: 108.086 ms)
+[2025.11.21-11.46.55:097][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040181s)
+[2025.11.21-11.46.55:097][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KitchenLevel.KitchenLevel to /Game/UEDPIE_0_KitchenLevel.KitchenLevel (0.040224s)
+[2025.11.21-11.46.55:128][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.11.21-11.46.55:129][516]LogChaosDD: Creating Chaos Debug Draw Scene for world KitchenLevel
+[2025.11.21-11.46.55:131][516]LogWorldPartition: ULevel::OnLevelLoaded(KitchenLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.21-11.46.55:131][516]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.21-11.46.55:131][516]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_KitchenLevel.KitchenLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.21-11.46.55:131][516]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.21-11.46.55:138][516]LogWorldPartition: Display: WorldPartition initialize took 7.791 ms (total: 1.07 sec)
+[2025.11.21-11.46.55:138][516]LogPlayLevel: PIE: World Init took: (0.009825s)
+[2025.11.21-11.46.55:139][516]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.11.21-11.46.55:139][516]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.21-11.46.55:139][516]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.21-11.46.55:139][516]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.21-11.46.55:139][516]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.21-11.46.55:139][516]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.21-11.46.55:139][516]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.21-11.46.55:139][516]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.21-11.46.55:139][516]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.21-11.46.55:139][516]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.21-11.46.55:139][516]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.21-11.46.55:139][516]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.21-11.46.55:141][516]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.21-11.46.55:171][516]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.11.21-11.46.55:171][516]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.21-11.46.55:171][516]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.21-11.46.55:171][516]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.21-11.46.55:172][516]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.11.21-11.46.55:172][516]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.11.21-11.46.55:174][516]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.11.21-11.46.55:174][516]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.11.21-11.46.55:175][516]LogInit: FAudioDevice initialized with ID 15.
+[2025.11.21-11.46.55:175][516]LogAudio: Display: Audio Device (ID: 15) registered with world 'KitchenLevel'.
+[2025.11.21-11.46.55:175][516]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.11.21-11.46.55:178][516]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.21-11.46.55:194][516]LogWorld: Bringing World /Game/UEDPIE_0_KitchenLevel.KitchenLevel up for play (max tick rate 0) at 2025.11.21-11.46.55
+[2025.11.21-11.46.55:195][516]LogWorld: Bringing up level for play took: 0.015103
+[2025.11.21-11.46.55:197][516]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2025.11.21-11.46.55:202][516]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (None)
+[2025.11.21-11.46.55:204][516]PIE: Server logged in
+[2025.11.21-11.46.55:207][516]PIE: Play in editor total start time 0.233 seconds.
+[2025.11.21-11.46.55:212][516]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'E'
+[2025.11.21-11.47.00:048][975]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.47.05:057][455]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.47.10:077][942]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.47.15:087][415]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.47.19:120][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-11.47.19:120][780]LogWorld: BeginTearingDown for /Game/UEDPIE_0_KitchenLevel
+[2025.11.21-11.47.19:120][780]LogWorld: UWorld::CleanupWorld for KitchenLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.21-11.47.19:125][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-11.47.19:125][780]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_KitchenLevel.KitchenLevel
+[2025.11.21-11.47.19:130][780]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.21-11.47.19:135][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-11.47.19:165][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-11.47.19:166][780]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.11.21-11.47.19:166][780]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=4
+[2025.11.21-11.47.19:169][780]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=2
+[2025.11.21-11.47.19:178][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.11.21-11.47.19:235][781]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2025.11.21-11.47.31:225][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.11.21-11.47.35:845][470]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.21-11.47.35:853][470]LogContentBundle: [KitchenLevel(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.21-11.47.35:853][470]LogWorldPartition: Display: GenerateStreaming for 'KitchenLevel' started...
+[2025.11.21-11.47.35:855][470]LogWorldPartition: Display: GenerateStreaming for 'KitchenLevel' took 2.167 ms (total: 43.601 ms)
+[2025.11.21-11.47.35:900][470]LogFMOD: Display: Loaded bank lookup
+[2025.11.21-11.47.35:900][470]LogFMOD: Error: Failed to load asset lookup
+[2025.11.21-11.47.35:905][470]LogFMOD: Default sample rate = 48000
+[2025.11.21-11.47.35:905][470]LogFMOD: System sample rate = 48000
+[2025.11.21-11.47.35:905][470]LogFMOD: Matching system sample rate 48000
+[2025.11.21-11.47.35:905][470]LogFMOD: CallbackHandler not set.
+[2025.11.21-11.47.35:924][470]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.21-11.47.35:937][470]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.47.35:959][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.21-11.47.35:996][470]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KitchenLevel
+[2025.11.21-11.47.36:028][470]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.21-11.47.36:037][470]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 7.901 ms (total: 115.988 ms)
+[2025.11.21-11.47.36:037][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040424s)
+[2025.11.21-11.47.36:037][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KitchenLevel.KitchenLevel to /Game/UEDPIE_0_KitchenLevel.KitchenLevel (0.040476s)
+[2025.11.21-11.47.36:068][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.11.21-11.47.36:070][470]LogChaosDD: Creating Chaos Debug Draw Scene for world KitchenLevel
+[2025.11.21-11.47.36:071][470]LogWorldPartition: ULevel::OnLevelLoaded(KitchenLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.21-11.47.36:071][470]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.21-11.47.36:071][470]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_KitchenLevel.KitchenLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.21-11.47.36:071][470]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.21-11.47.36:079][470]LogWorldPartition: Display: WorldPartition initialize took 7.680 ms (total: 1.08 sec)
+[2025.11.21-11.47.36:079][470]LogPlayLevel: PIE: World Init took: (0.009593s)
+[2025.11.21-11.47.36:080][470]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.11.21-11.47.36:080][470]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.21-11.47.36:080][470]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.21-11.47.36:080][470]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.21-11.47.36:080][470]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.21-11.47.36:080][470]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.21-11.47.36:080][470]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.21-11.47.36:080][470]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.21-11.47.36:080][470]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.21-11.47.36:080][470]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.21-11.47.36:080][470]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.21-11.47.36:080][470]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.21-11.47.36:082][470]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.21-11.47.36:112][470]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.11.21-11.47.36:113][470]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.21-11.47.36:113][470]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.21-11.47.36:113][470]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.21-11.47.36:113][470]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.11.21-11.47.36:113][470]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.11.21-11.47.36:115][470]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.11.21-11.47.36:115][470]LogInit: FAudioDevice initialized with ID 16.
+[2025.11.21-11.47.36:115][470]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.11.21-11.47.36:115][470]LogAudio: Display: Audio Device (ID: 16) registered with world 'KitchenLevel'.
+[2025.11.21-11.47.36:115][470]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.11.21-11.47.36:121][470]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.21-11.47.36:136][470]LogWorld: Bringing World /Game/UEDPIE_0_KitchenLevel.KitchenLevel up for play (max tick rate 0) at 2025.11.21-11.47.36
+[2025.11.21-11.47.36:136][470]LogWorld: Bringing up level for play took: 0.015215
+[2025.11.21-11.47.36:140][470]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2025.11.21-11.47.36:144][470]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (None)
+[2025.11.21-11.47.36:147][470]PIE: Server logged in
+[2025.11.21-11.47.36:149][470]PIE: Play in editor total start time 0.295 seconds.
+[2025.11.21-11.47.36:153][470]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'E'
+[2025.11.21-11.47.38:358][675]LogCharacterMovement: BP_ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=61.59 Y=-11.90 Z=0.00 Location: X=-1296.68 Y=-734.12 Z=92.15 Normal: X=-0.99 Y=-0.15 Z=-0.00 PenetrationDepth:0.034 Actor:BP_Burger_C_UAID_C85ACF0FC16E40A402_2007594945 Component:w BoneName:None (0 other events since notify)
+[2025.11.21-11.47.40:947][934]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.47.45:956][427]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.47.50:978][920]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.47.51:479][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-11.47.51:479][952]LogWorld: BeginTearingDown for /Game/UEDPIE_0_KitchenLevel
+[2025.11.21-11.47.51:479][952]LogWorld: UWorld::CleanupWorld for KitchenLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.21-11.47.51:485][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-11.47.51:485][952]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_KitchenLevel.KitchenLevel
+[2025.11.21-11.47.51:489][952]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.21-11.47.51:494][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-11.47.51:525][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-11.47.51:525][952]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.11.21-11.47.51:526][952]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=4
+[2025.11.21-11.47.51:528][952]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=2
+[2025.11.21-11.47.51:539][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.11.21-11.47.51:598][953]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2025.11.21-11.48.01:490][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.11.21-11.48.03:287][ 59]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.21-11.48.03:294][ 59]LogContentBundle: [KitchenLevel(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.21-11.48.03:294][ 59]LogWorldPartition: Display: GenerateStreaming for 'KitchenLevel' started...
+[2025.11.21-11.48.03:297][ 59]LogWorldPartition: Display: GenerateStreaming for 'KitchenLevel' took 2.654 ms (total: 46.256 ms)
+[2025.11.21-11.48.03:329][ 59]LogFMOD: Display: Loaded bank lookup
+[2025.11.21-11.48.03:329][ 59]LogFMOD: Error: Failed to load asset lookup
+[2025.11.21-11.48.03:335][ 59]LogFMOD: Default sample rate = 48000
+[2025.11.21-11.48.03:335][ 59]LogFMOD: System sample rate = 48000
+[2025.11.21-11.48.03:335][ 59]LogFMOD: Matching system sample rate 48000
+[2025.11.21-11.48.03:335][ 59]LogFMOD: CallbackHandler not set.
+[2025.11.21-11.48.03:353][ 59]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.21-11.48.03:367][ 59]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.48.03:389][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.21-11.48.03:389][ 59]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KitchenLevel
+[2025.11.21-11.48.03:422][ 59]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.21-11.48.03:430][ 59]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 7.657 ms (total: 123.645 ms)
+[2025.11.21-11.48.03:430][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040477s)
+[2025.11.21-11.48.03:430][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KitchenLevel.KitchenLevel to /Game/UEDPIE_0_KitchenLevel.KitchenLevel (0.040521s)
+[2025.11.21-11.48.03:461][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.11.21-11.48.03:463][ 59]LogChaosDD: Creating Chaos Debug Draw Scene for world KitchenLevel
+[2025.11.21-11.48.03:464][ 59]LogWorldPartition: ULevel::OnLevelLoaded(KitchenLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.21-11.48.03:464][ 59]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.21-11.48.03:464][ 59]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_KitchenLevel.KitchenLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.21-11.48.03:464][ 59]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.21-11.48.03:472][ 59]LogWorldPartition: Display: WorldPartition initialize took 8.172 ms (total: 1.09 sec)
+[2025.11.21-11.48.03:473][ 59]LogPlayLevel: PIE: World Init took: (0.010284s)
+[2025.11.21-11.48.03:474][ 59]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2025.11.21-11.48.03:474][ 59]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.21-11.48.03:474][ 59]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.21-11.48.03:474][ 59]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.21-11.48.03:474][ 59]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.21-11.48.03:474][ 59]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.21-11.48.03:474][ 59]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.21-11.48.03:474][ 59]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.21-11.48.03:474][ 59]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.21-11.48.03:474][ 59]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.21-11.48.03:474][ 59]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.21-11.48.03:474][ 59]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.21-11.48.03:476][ 59]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.21-11.48.03:507][ 59]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.11.21-11.48.03:507][ 59]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.21-11.48.03:507][ 59]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.21-11.48.03:507][ 59]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.21-11.48.03:507][ 59]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2025.11.21-11.48.03:507][ 59]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2025.11.21-11.48.03:510][ 59]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2025.11.21-11.48.03:510][ 59]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2025.11.21-11.48.03:510][ 59]LogInit: FAudioDevice initialized with ID 17.
+[2025.11.21-11.48.03:510][ 59]LogAudio: Display: Audio Device (ID: 17) registered with world 'KitchenLevel'.
+[2025.11.21-11.48.03:510][ 59]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2025.11.21-11.48.03:515][ 59]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.21-11.48.03:530][ 59]LogWorld: Bringing World /Game/UEDPIE_0_KitchenLevel.KitchenLevel up for play (max tick rate 0) at 2025.11.21-11.48.03
+[2025.11.21-11.48.03:530][ 59]LogWorld: Bringing up level for play took: 0.014912
+[2025.11.21-11.48.03:533][ 59]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2025.11.21-11.48.03:538][ 59]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (None)
+[2025.11.21-11.48.03:540][ 59]PIE: Server logged in
+[2025.11.21-11.48.03:542][ 59]PIE: Play in editor total start time 0.247 seconds.
+[2025.11.21-11.48.03:547][ 59]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'E'
+[2025.11.21-11.48.08:377][516]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.48.13:387][  9]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.48.13:628][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-11.48.13:628][ 15]LogWorld: BeginTearingDown for /Game/UEDPIE_0_KitchenLevel
+[2025.11.21-11.48.13:628][ 15]LogWorld: UWorld::CleanupWorld for KitchenLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.21-11.48.13:634][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-11.48.13:634][ 15]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_KitchenLevel.KitchenLevel
+[2025.11.21-11.48.13:639][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.21-11.48.13:644][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-11.48.13:674][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-11.48.13:676][ 15]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2025.11.21-11.48.13:676][ 15]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=4
+[2025.11.21-11.48.13:678][ 15]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=2
+[2025.11.21-11.48.13:687][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.11.21-11.48.13:742][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2025.11.21-11.48.50:706][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.11.21-11.48.50:709][333]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/KitchenLevel' took 0.032
+[2025.11.21-11.48.50:709][333]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_BurgerSpawn] ([2] browsable assets)...
+[2025.11.21-11.48.50:709][333]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BurgerSpawn]
+[2025.11.21-11.48.50:709][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BurgerSpawn" FILE="../../../../../../CoLab3/CoLab3/Saved/Autosaves/Game/BP_BurgerSpawn_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2025.11.21-11.48.50:720][333]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP_BurgerSpawn_Auto3
+[2025.11.21-11.48.50:720][333]LogSavePackage: Moving '../../../../../../CoLab3/CoLab3/Saved/BP_BurgerSpawn_Auto3ABC7BA0E4C381ECFD3BD8CB3F124B4FC.tmp' to '../../../../../../CoLab3/CoLab3/Saved/Autosaves/Game/BP_BurgerSpawn_Auto3.uasset'
+[2025.11.21-11.48.50:720][333]LogFileHelpers: Auto-saving content packages took 0.011
+[2025.11.21-11.49.10:606][178]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.21-11.49.58:150][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.11.21-11.50.09:352][147]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.21-11.50.09:360][147]LogContentBundle: [KitchenLevel(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.21-11.50.09:360][147]LogWorldPartition: Display: GenerateStreaming for 'KitchenLevel' started...
+[2025.11.21-11.50.09:363][147]LogWorldPartition: Display: GenerateStreaming for 'KitchenLevel' took 2.610 ms (total: 48.866 ms)
+[2025.11.21-11.50.09:388][147]LogFMOD: Display: Loaded bank lookup
+[2025.11.21-11.50.09:388][147]LogFMOD: Error: Failed to load asset lookup
+[2025.11.21-11.50.09:394][147]LogFMOD: Default sample rate = 48000
+[2025.11.21-11.50.09:394][147]LogFMOD: System sample rate = 48000
+[2025.11.21-11.50.09:394][147]LogFMOD: Matching system sample rate 48000
+[2025.11.21-11.50.09:394][147]LogFMOD: CallbackHandler not set.
+[2025.11.21-11.50.09:414][147]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.21-11.50.09:425][147]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.50.09:448][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.21-11.50.09:448][147]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KitchenLevel
+[2025.11.21-11.50.09:480][147]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.21-11.50.09:489][147]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 7.958 ms (total: 131.604 ms)
+[2025.11.21-11.50.09:489][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040560s)
+[2025.11.21-11.50.09:489][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KitchenLevel.KitchenLevel to /Game/UEDPIE_0_KitchenLevel.KitchenLevel (0.040611s)
+[2025.11.21-11.50.09:519][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.11.21-11.50.09:520][147]LogChaosDD: Creating Chaos Debug Draw Scene for world KitchenLevel
+[2025.11.21-11.50.09:522][147]LogWorldPartition: ULevel::OnLevelLoaded(KitchenLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.21-11.50.09:522][147]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.21-11.50.09:522][147]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_KitchenLevel.KitchenLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.21-11.50.09:522][147]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.21-11.50.09:529][147]LogWorldPartition: Display: WorldPartition initialize took 7.781 ms (total: 1.09 sec)
+[2025.11.21-11.50.09:529][147]LogPlayLevel: PIE: World Init took: (0.009905s)
+[2025.11.21-11.50.09:531][147]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.11.21-11.50.09:531][147]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.21-11.50.09:531][147]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.21-11.50.09:531][147]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.21-11.50.09:531][147]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.21-11.50.09:531][147]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.21-11.50.09:531][147]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.21-11.50.09:531][147]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.21-11.50.09:531][147]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.21-11.50.09:531][147]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.21-11.50.09:531][147]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.21-11.50.09:531][147]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.21-11.50.09:534][147]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.21-11.50.09:562][147]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.11.21-11.50.09:562][147]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.21-11.50.09:562][147]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.21-11.50.09:562][147]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.21-11.50.09:564][147]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.11.21-11.50.09:564][147]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2025.11.21-11.50.09:569][147]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.11.21-11.50.09:569][147]LogInit: FAudioDevice initialized with ID 18.
+[2025.11.21-11.50.09:569][147]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.11.21-11.50.09:569][147]LogAudio: Display: Audio Device (ID: 18) registered with world 'KitchenLevel'.
+[2025.11.21-11.50.09:569][147]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.11.21-11.50.09:575][147]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.21-11.50.09:591][147]LogWorld: Bringing World /Game/UEDPIE_0_KitchenLevel.KitchenLevel up for play (max tick rate 0) at 2025.11.21-11.50.09
+[2025.11.21-11.50.09:591][147]LogWorld: Bringing up level for play took: 0.015313
+[2025.11.21-11.50.09:594][147]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.11.21-11.50.09:599][147]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (None)
+[2025.11.21-11.50.09:601][147]PIE: Server logged in
+[2025.11.21-11.50.09:604][147]PIE: Play in editor total start time 0.244 seconds.
+[2025.11.21-11.50.09:610][147]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'E'
+[2025.11.21-11.50.14:436][621]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.50.16:028][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-11.50.16:028][760]LogWorld: BeginTearingDown for /Game/UEDPIE_0_KitchenLevel
+[2025.11.21-11.50.16:028][760]LogWorld: UWorld::CleanupWorld for KitchenLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.21-11.50.16:034][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-11.50.16:034][760]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_KitchenLevel.KitchenLevel
+[2025.11.21-11.50.16:039][760]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.21-11.50.16:043][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-11.50.16:073][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-11.50.16:075][760]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.11.21-11.50.16:075][760]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=4
+[2025.11.21-11.50.16:077][760]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=2
+[2025.11.21-11.50.16:088][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.11.21-11.50.16:144][761]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2025.11.21-11.50.23:134][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.11.21-11.50.24:883][684]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.21-11.50.24:890][684]LogContentBundle: [KitchenLevel(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.21-11.50.24:891][684]LogWorldPartition: Display: GenerateStreaming for 'KitchenLevel' started...
+[2025.11.21-11.50.24:893][684]LogWorldPartition: Display: GenerateStreaming for 'KitchenLevel' took 2.358 ms (total: 51.224 ms)
+[2025.11.21-11.50.24:917][684]LogFMOD: Display: Loaded bank lookup
+[2025.11.21-11.50.24:917][684]LogFMOD: Error: Failed to load asset lookup
+[2025.11.21-11.50.24:922][684]LogFMOD: Default sample rate = 48000
+[2025.11.21-11.50.24:922][684]LogFMOD: System sample rate = 48000
+[2025.11.21-11.50.24:922][684]LogFMOD: Matching system sample rate 48000
+[2025.11.21-11.50.24:922][684]LogFMOD: CallbackHandler not set.
+[2025.11.21-11.50.24:942][684]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.21-11.50.24:956][684]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.50.24:977][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.21-11.50.24:977][684]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KitchenLevel
+[2025.11.21-11.50.25:009][684]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.21-11.50.25:016][684]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 7.668 ms (total: 139.272 ms)
+[2025.11.21-11.50.25:017][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039694s)
+[2025.11.21-11.50.25:017][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KitchenLevel.KitchenLevel to /Game/UEDPIE_0_KitchenLevel.KitchenLevel (0.039736s)
+[2025.11.21-11.50.25:048][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.11.21-11.50.25:050][684]LogChaosDD: Creating Chaos Debug Draw Scene for world KitchenLevel
+[2025.11.21-11.50.25:051][684]LogWorldPartition: ULevel::OnLevelLoaded(KitchenLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.21-11.50.25:051][684]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.21-11.50.25:051][684]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_KitchenLevel.KitchenLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.21-11.50.25:051][684]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.21-11.50.25:059][684]LogWorldPartition: Display: WorldPartition initialize took 7.618 ms (total: 1.10 sec)
+[2025.11.21-11.50.25:059][684]LogPlayLevel: PIE: World Init took: (0.009517s)
+[2025.11.21-11.50.25:060][684]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2025.11.21-11.50.25:060][684]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.21-11.50.25:060][684]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.21-11.50.25:060][684]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.21-11.50.25:060][684]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.21-11.50.25:060][684]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.21-11.50.25:060][684]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.21-11.50.25:060][684]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.21-11.50.25:060][684]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.21-11.50.25:060][684]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.21-11.50.25:060][684]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.21-11.50.25:060][684]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.21-11.50.25:063][684]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.21-11.50.25:091][684]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.11.21-11.50.25:091][684]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.21-11.50.25:091][684]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.21-11.50.25:091][684]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.21-11.50.25:093][684]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2025.11.21-11.50.25:093][684]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2025.11.21-11.50.25:095][684]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2025.11.21-11.50.25:095][684]LogInit: FAudioDevice initialized with ID 19.
+[2025.11.21-11.50.25:095][684]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2025.11.21-11.50.25:095][684]LogAudio: Display: Audio Device (ID: 19) registered with world 'KitchenLevel'.
+[2025.11.21-11.50.25:095][684]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2025.11.21-11.50.25:099][684]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.21-11.50.25:115][684]LogWorld: Bringing World /Game/UEDPIE_0_KitchenLevel.KitchenLevel up for play (max tick rate 0) at 2025.11.21-11.50.25
+[2025.11.21-11.50.25:115][684]LogWorld: Bringing up level for play took: 0.015225
+[2025.11.21-11.50.25:118][684]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.11.21-11.50.25:121][684]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (None)
+[2025.11.21-11.50.25:124][684]PIE: Server logged in
+[2025.11.21-11.50.25:127][684]PIE: Play in editor total start time 0.236 seconds.
+[2025.11.21-11.50.25:131][684]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'E'
+[2025.11.21-11.50.29:965][154]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.50.34:975][638]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.50.38:905][ 12]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3098.892822
+[2025.11.21-11.50.39:046][ 28]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.21-11.50.39:046][ 28]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3099.025635, Update Interval: 347.956787
+[2025.11.21-11.50.39:996][120]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-11.50.44:148][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-11.50.44:148][517]LogWorld: BeginTearingDown for /Game/UEDPIE_0_KitchenLevel
+[2025.11.21-11.50.44:148][517]LogWorld: UWorld::CleanupWorld for KitchenLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.21-11.50.44:154][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-11.50.44:154][517]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_KitchenLevel.KitchenLevel
+[2025.11.21-11.50.44:158][517]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.21-11.50.44:163][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-11.50.44:191][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-11.50.44:193][517]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2025.11.21-11.50.44:193][517]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=4
+[2025.11.21-11.50.44:195][517]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=2
+[2025.11.21-11.50.44:205][517]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.11.21-11.50.44:266][518]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.11.21-11.51.20:970][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.11.21-11.52.50:404][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.11.21-11.57.02:609][474]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.21-11.57.09:442][ 11]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3489.403809
+[2025.11.21-11.57.09:604][ 23]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.21-11.57.09:604][ 23]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3489.548340, Update Interval: 351.855225
+[2025.11.21-12.00.24:048][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.11.21-12.00.24:060][986]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/KitchenLevel/6/FW/MRFCNQR3IH0MPUMKATONOW_Auto4
+[2025.11.21-12.00.24:060][986]LogSavePackage: Moving '../../../../../../CoLab3/CoLab3/Saved/MRFCNQR3IH0MPUMKATONOW_Auto447FA6D504F83A86054624081C6896B8D.tmp' to '../../../../../../CoLab3/CoLab3/Saved/Autosaves/Game/__ExternalActors__/KitchenLevel/6/FW/MRFCNQR3IH0MPUMKATONOW_Auto4.uasset'
+[2025.11.21-12.00.24:067][986]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/KitchenLevel/A/1H/44MY1L3UY51XMD1TNRG1V9_Auto4
+[2025.11.21-12.00.24:069][986]LogSavePackage: Moving '../../../../../../CoLab3/CoLab3/Saved/44MY1L3UY51XMD1TNRG1V9_Auto4008833C0438E47BB2B61ECA4420D364B.tmp' to '../../../../../../CoLab3/CoLab3/Saved/Autosaves/Game/__ExternalActors__/KitchenLevel/A/1H/44MY1L3UY51XMD1TNRG1V9_Auto4.uasset'
+[2025.11.21-12.00.24:072][986]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/KitchenLevel' took 0.058
+[2025.11.21-12.00.24:072][986]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.058
+[2025.11.21-12.00.24:072][986]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_AddMoney] ([2] browsable assets)...
+[2025.11.21-12.00.24:072][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_AddMoney]
+[2025.11.21-12.00.24:072][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_AddMoney" FILE="../../../../../../CoLab3/CoLab3/Saved/Autosaves/Game/BP_AddMoney_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2025.11.21-12.00.24:081][986]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP_AddMoney_Auto4
+[2025.11.21-12.00.24:082][986]LogSavePackage: Moving '../../../../../../CoLab3/CoLab3/Saved/BP_AddMoney_Auto4A64ADF364BB8540F92534F98E7495C65.tmp' to '../../../../../../CoLab3/CoLab3/Saved/Autosaves/Game/BP_AddMoney_Auto4.uasset'
+[2025.11.21-12.00.24:082][986]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_BurgerSpawn] ([2] browsable assets)...
+[2025.11.21-12.00.24:082][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BurgerSpawn]
+[2025.11.21-12.00.24:083][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BurgerSpawn" FILE="../../../../../../CoLab3/CoLab3/Saved/Autosaves/Game/BP_BurgerSpawn_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2025.11.21-12.00.24:092][986]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP_BurgerSpawn_Auto4
+[2025.11.21-12.00.24:092][986]LogSavePackage: Moving '../../../../../../CoLab3/CoLab3/Saved/BP_BurgerSpawn_Auto4B7A347C1481DA408C89CB29ADC45E236.tmp' to '../../../../../../CoLab3/CoLab3/Saved/Autosaves/Game/BP_BurgerSpawn_Auto4.uasset'
+[2025.11.21-12.00.24:093][986]LogFileHelpers: Auto-saving content packages took 0.022
+[2025.11.21-12.00.51:659][982]LogDerivedDataCache: C:/Users/24829544/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.21-12.01.51:840][227]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.21-12.01.51:848][227]LogContentBundle: [KitchenLevel(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.21-12.01.51:848][227]LogWorldPartition: Display: GenerateStreaming for 'KitchenLevel' started...
+[2025.11.21-12.01.51:851][227]LogWorldPartition: Display: GenerateStreaming for 'KitchenLevel' took 2.895 ms (total: 54.120 ms)
+[2025.11.21-12.01.51:870][227]LogPlayLevel: Warning: Cancelling Open Transaction 'Edit Light Color' to start PIE session.
+[2025.11.21-12.01.51:905][227]LogFMOD: Display: Loaded bank lookup
+[2025.11.21-12.01.51:905][227]LogFMOD: Error: Failed to load asset lookup
+[2025.11.21-12.01.51:912][227]LogFMOD: Default sample rate = 48000
+[2025.11.21-12.01.51:912][227]LogFMOD: System sample rate = 48000
+[2025.11.21-12.01.51:912][227]LogFMOD: Matching system sample rate 48000
+[2025.11.21-12.01.51:912][227]LogFMOD: CallbackHandler not set.
+[2025.11.21-12.01.51:936][227]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.21-12.01.51:944][227]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-12.01.51:966][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.21-12.01.51:966][227]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KitchenLevel
+[2025.11.21-12.01.51:998][227]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.21-12.01.52:007][227]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 7.698 ms (total: 146.970 ms)
+[2025.11.21-12.01.52:007][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040945s)
+[2025.11.21-12.01.52:007][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KitchenLevel.KitchenLevel to /Game/UEDPIE_0_KitchenLevel.KitchenLevel (0.040996s)
+[2025.11.21-12.01.52:035][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.11.21-12.01.52:036][227]LogChaosDD: Creating Chaos Debug Draw Scene for world KitchenLevel
+[2025.11.21-12.01.52:038][227]LogWorldPartition: ULevel::OnLevelLoaded(KitchenLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.21-12.01.52:038][227]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.21-12.01.52:038][227]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_KitchenLevel.KitchenLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.21-12.01.52:039][227]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.21-12.01.52:046][227]LogWorldPartition: Display: WorldPartition initialize took 7.718 ms (total: 1.11 sec)
+[2025.11.21-12.01.52:046][227]LogPlayLevel: PIE: World Init took: (0.009927s)
+[2025.11.21-12.01.52:046][227]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2025.11.21-12.01.52:046][227]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.21-12.01.52:046][227]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.21-12.01.52:046][227]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.21-12.01.52:046][227]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.21-12.01.52:046][227]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.21-12.01.52:046][227]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.21-12.01.52:046][227]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.21-12.01.52:046][227]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.21-12.01.52:046][227]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.21-12.01.52:046][227]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.21-12.01.52:046][227]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.21-12.01.52:049][227]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.21-12.01.52:079][227]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.11.21-12.01.52:079][227]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.21-12.01.52:079][227]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.21-12.01.52:079][227]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.21-12.01.52:079][227]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2025.11.21-12.01.52:079][227]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2025.11.21-12.01.52:083][227]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2025.11.21-12.01.52:083][227]LogInit: FAudioDevice initialized with ID 20.
+[2025.11.21-12.01.52:083][227]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2025.11.21-12.01.52:083][227]LogAudio: Display: Audio Device (ID: 20) registered with world 'KitchenLevel'.
+[2025.11.21-12.01.52:083][227]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2025.11.21-12.01.52:088][227]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.21-12.01.52:104][227]LogWorld: Bringing World /Game/UEDPIE_0_KitchenLevel.KitchenLevel up for play (max tick rate 0) at 2025.11.21-12.01.52
+[2025.11.21-12.01.52:104][227]LogWorld: Bringing up level for play took: 0.015808
+[2025.11.21-12.01.52:107][227]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2025.11.21-12.01.52:112][227]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (None)
+[2025.11.21-12.01.52:114][227]PIE: Server logged in
+[2025.11.21-12.01.52:117][227]PIE: Play in editor total start time 0.269 seconds.
+[2025.11.21-12.01.52:117][227]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.21-12.01.52:130][227]LogEnhancedInput: Warning: A Key Mapping with a blank action has been added! Ignoring the key mapping to 'E'
+[2025.11.21-12.01.52:186][227]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.21-12.01.56:954][530]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-12.02.01:964][877]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-12.02.06:984][219]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-12.02.11:994][558]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-12.02.17:004][909]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-12.02.22:025][247]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-12.02.27:036][588]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.21-12.02.31:515][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-12.02.31:515][898]LogWorld: BeginTearingDown for /Game/UEDPIE_0_KitchenLevel
+[2025.11.21-12.02.31:517][898]LogWorld: UWorld::CleanupWorld for KitchenLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.21-12.02.31:521][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-12.02.31:522][898]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_KitchenLevel.KitchenLevel
+[2025.11.21-12.02.31:527][898]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.21-12.02.31:532][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.21-12.02.31:562][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.21-12.02.31:564][898]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2025.11.21-12.02.31:564][898]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=4
+[2025.11.21-12.02.31:566][898]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=2
+[2025.11.21-12.02.31:578][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.11.21-12.02.31:645][899]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2025.11.21-12.03.46:979][267]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3886.933105
+[2025.11.21-12.03.47:134][278]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.21-12.03.47:134][278]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3887.077148, Update Interval: 355.966064
+[2025.11.21-12.09.43:195][759]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.11.21-12.09.44:433][759]LogSlate: Window 'Save Content' being destroyed
+[2025.11.21-12.09.44:486][759]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.21-12.09.44:527][759]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_AddMoney] ([2] browsable assets)...
+[2025.11.21-12.09.44:527][759]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_AddMoney]
+[2025.11.21-12.09.44:527][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_AddMoney" FILE="../../../../../../CoLab3/CoLab3/Content/BP_AddMoney.uasset" SILENT=true
+[2025.11.21-12.09.44:538][759]LogSavePackage: Moving output files for package: /Game/BP_AddMoney
+[2025.11.21-12.09.44:538][759]LogSavePackage: Moving '../../../../../../CoLab3/CoLab3/Saved/BP_AddMoney356451A6412F30780D659A9F0D1DA2F8.tmp' to '../../../../../../CoLab3/CoLab3/Content/BP_AddMoney.uasset'
+[2025.11.21-12.09.44:540][759]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_BurgerSpawn] ([2] browsable assets)...
+[2025.11.21-12.09.44:540][759]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BurgerSpawn]
+[2025.11.21-12.09.44:540][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BurgerSpawn" FILE="../../../../../../CoLab3/CoLab3/Content/BP_BurgerSpawn.uasset" SILENT=true
+[2025.11.21-12.09.44:550][759]LogSavePackage: Moving output files for package: /Game/BP_BurgerSpawn
+[2025.11.21-12.09.44:551][759]LogSavePackage: Moving '../../../../../../CoLab3/CoLab3/Saved/BP_BurgerSpawn5E4F37D0487E34467FC7DC89E75E8E37.tmp' to '../../../../../../CoLab3/CoLab3/Content/BP_BurgerSpawn.uasset'
+[2025.11.21-12.09.44:558][759]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/KitchenLevel/6/FW/MRFCNQR3IH0MPUMKATONOW
+[2025.11.21-12.09.44:560][759]LogSavePackage: Moving '../../../../../../CoLab3/CoLab3/Saved/MRFCNQR3IH0MPUMKATONOW674C70AA45AF646494CC54BAAC55CE31.tmp' to '../../../../../../CoLab3/CoLab3/Content/__ExternalActors__/KitchenLevel/6/FW/MRFCNQR3IH0MPUMKATONOW.uasset'
+[2025.11.21-12.09.44:567][759]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/KitchenLevel/A/1H/44MY1L3UY51XMD1TNRG1V9
+[2025.11.21-12.09.44:567][759]LogSavePackage: Moving '../../../../../../CoLab3/CoLab3/Saved/44MY1L3UY51XMD1TNRG1V9A84B24344AE5F224EF28529D95D71B2B.tmp' to '../../../../../../CoLab3/CoLab3/Content/__ExternalActors__/KitchenLevel/A/1H/44MY1L3UY51XMD1TNRG1V9.uasset'
+[2025.11.21-12.09.44:579][759]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.986 ms (total: 379.470 ms)
+[2025.11.21-12.09.44:651][759]LogContentValidation: Display: Starting to validate 4 assets
+[2025.11.21-12.09.44:651][759]LogContentValidation: Enabled validators:
+[2025.11.21-12.09.44:651][759]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.21-12.09.44:651][759]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.21-12.09.44:651][759]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.21-12.09.44:651][759]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.21-12.09.44:651][759]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.21-12.09.44:651][759]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.21-12.09.44:651][759]AssetCheck: /Game/BP_AddMoney Validating asset
+[2025.11.21-12.09.44:651][759]AssetCheck: /Game/BP_BurgerSpawn Validating asset
+[2025.11.21-12.09.44:651][759]AssetCheck: /Game/KitchenLevel Validating asset
+[2025.11.21-12.09.44:677][759]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../CoLab3/CoLab3/Saved/SourceControl/UncontrolledChangelists.json
